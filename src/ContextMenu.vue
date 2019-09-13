@@ -23,11 +23,18 @@
 
 		methods: {
 			open(event, ctx) {
-				this.position.x = event.pageX;
-				this.position.y = event.pageY;
+				if (event) {
+					this.position.x = event.pageX;
+					this.position.y = event.pageY;
+				}
+				
 				this.ctx = ctx;
 				this.isOpen = true;
-			}
+			},
+
+			close() {
+				this.isOpen = false;
+			},
 		},
 
 		mounted() {

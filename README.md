@@ -75,3 +75,8 @@ You can see we provided the `cat` as the second parameter to `contextMenu.open`.
 ```
 
 That's all I think.
+
+## Other things
+
+- `close()` closes the menu
+- You can also do `open()` without passing an event to open the menu at last position (defaults to 0,0)
