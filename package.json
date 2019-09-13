@@ -1,0 +1,26 @@
+{
+  "name": "vue-context-menu",
+  "version": "0.1.0",
+  "description": "Context menus for VueJS",
+  "author": "Yousef Sultan <yousef.su.2000@gmail.com>",
+  "private": false,
+  "main": "./src/ContextMenu.vue",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "context",
+    "menu",
+    "right click"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroDroid/vue-context-menu.git"
+  },
+  "homepage": "https://github.com/MicroDroid/vue-context-menu",
+  "bugs": {
+    "url": "https://github.com/MicroDroid/vue-context-menu/issues"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
