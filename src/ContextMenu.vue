@@ -39,6 +39,9 @@
 
 		mounted() {
 			document.addEventListener('click', e => {
+				if (!this.$refs.container || !this.isOpen)
+					return;
+
 				const insideMenu = this.$refs.container.contains(e.target);
 
 				if (!insideMenu)

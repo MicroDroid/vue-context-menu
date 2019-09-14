@@ -1,6 +1,6 @@
 {
   "name": "@overcoder/vue-context-menu",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Context menus for VueJS",
   "author": "Yousef Sultan <yousef.su.2000@gmail.com>",
   "private": false,
